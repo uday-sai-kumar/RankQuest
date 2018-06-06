@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6319</color>
+    <color name="colorPrimaryDark">#e93429</color>
+    <color name="colorAccent">#ff6319</color>
+    <color name="good">#e0e0e0</color>
+    <color name="cutdown">#c6ff6319</color>
+    <color name="cutup">#aee93429</color>
+    <color name="myinterest">#c5f1e7e2</color>
+    <color name="newone">#ece4e4</color>
+    <color name="newone1">#f9f5f5</color>
+    <color name="head">#f1efef</color>
+    <color name="headm">#f9f2f2</color>
+    <color name="headf">#fcfafa</color>
+    <color name="headc">#e3ffffff</color>
+
+    <!--    <color name="myinterest">#c5e2b8a3</color>
+    -->
+
+
+</resources>

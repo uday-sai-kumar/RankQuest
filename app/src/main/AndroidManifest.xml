@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.udaysaikumar.rankquest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CutOff"
+            android:configChanges="orientation"
+            android:label="Cut Off"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Branches"
+            android:configChanges="orientation"
+            android:label="Branches"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Clg_Cutoff_list"
+            android:configChanges="orientation"
+            android:label="Cut Off"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".AllColleges"
+            android:configChanges="orientation"
+            android:label="Colleges"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".FirstRankQuest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DevelopersActivity"
+            android:configChanges="orientation"
+            android:label="Developers"
+            android:screenOrientation="portrait" />
+        <!-- <activity android:name="com.rankquest.udaysaikumar.rankquest.AllCollegesCutoff" /> -->
+        <activity
+            android:name=".CutOffAllColleges"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.udaysaikumar.rankquest.FeedBack"
+            android:configChanges="orientation"
+            android:label="Feedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.udaysaikumar.rankquest.WebSite"
+            android:configChanges="orientation"
+            android:label="WebSite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.udaysaikumar.rankquest.ReportingCenters"
+            android:configChanges="orientation"
+            android:label="Reporting Centers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.udaysaikumar.rankquest.Schedule"
+            android:configChanges="orientation"
+            android:label="Schedule"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.udaysaikumar.rankquest.CheckList"
+            android:configChanges="orientation"
+            android:label="Check List"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rankquest.eamcet.FullInformationClg"
+            android:configChanges="orientation"
+            android:label="College Information"
+            android:screenOrientation="portrait" />
+        <activity android:name=".FragmentPagerSupport"></activity>
+    </application>
+
+</manifest>

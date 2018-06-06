@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="9dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="7dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="19sp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/branchs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/headf"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="Category"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/headm"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="MOpen"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/headf"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="MClose"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/openf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/headm"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="FOpen"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/closef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/headf"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="FClose"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <!--<TextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="4dp"
+                android:text="Male"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold" />-->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/oc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="OC"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/oco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/occ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ocof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/occf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/bca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BC-A"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/bcaof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcacf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/bcb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BC-B"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcbo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcbc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/bcbof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcbcf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/bcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BC-C"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bccc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/bccof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcccf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/bcd"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BC-D"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcdo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcdc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/bcdof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcdcf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/bce"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BC-E"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bceo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/bceof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bcecf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/sc"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="SC"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/scc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/scof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sccf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <TextView
+                android:id="@+id/st"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="ST"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/stc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/stof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/stcf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="CSE"
+                android:textSize="16sp" />
+        </TableRow>
+          <!--  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/branchsf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:fontFamily="serif"
+                    android:padding="4dp"
+                    android:text="Cast"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/openf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="serif"
+                    android:padding="4dp"
+                    android:text="Open"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/closef"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="4dp"
+                    android:text="Close"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/genderf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="4dp"
+                    android:text="Female"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/ocf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="OC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/ocof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/occf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/bcaf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="BCA"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcaof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcacf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/bcbf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="BCB"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcbof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcbcf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/bccf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="BCC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bccof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcccf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/bcdf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="BCD"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcdof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcdcf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/bcef"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="BCE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bceof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bcecf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/scf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="SC"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/scof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sccf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/stf"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:padding="5dp"
+                    android:text="ST"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/stof"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/stcf"
+                    android:layout_width="@dimen/clginfo"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="CSE"
+                    android:textSize="16sp" />
+            </LinearLayout>
+-->
+
+        <!--<TextView
+            android:id="@+id/ocopen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="CSE"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/occlose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="CSE"
+            android:textSize="16sp" />-->
+        </TableLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <!--<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >-->
+    <!--  <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OC_o" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OC_c" />
+        </TableRow>-->
+    <!--<TableRow>
+
+                <TextView
+                    android:id="@+id/branch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CSE" />
+
+                <TextView
+                    android:id="@+id/ocopen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CSE" />
+
+                <TextView
+                    android:id="@+id/occlose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CSE" />
+            </TableRow>
+
+    </TableLayout>-->
+    <!-- <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </LinearLayout>-->
+
+</RelativeLayout>
